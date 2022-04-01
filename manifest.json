@@ -1,0 +1,17 @@
+{
+    "name": "JoJo News Notifications",
+    "version": "1.0",
+    "description": "A plugin for chrome that enables notifications for the jojo's bizarre encyclopedia's news website (jojo-news.com).",
+    "manifest_version": 3,
+    "background": {
+        "service_worker": "service_worker.js"
+    },
+    "icons": {
+        "140": "assets/JJBELogo.png"
+    },
+    "permissions": [
+        "notifications",
+        "storage",
+        "alarms"
+    ]
+}
